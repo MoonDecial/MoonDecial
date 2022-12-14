@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>404</title>
+</head>
+<body>
+	<div class="box">
+		<label for="" class="logo-text">404</label>
+		<h1 class="tieude">OPPS!! Page Not Found</h1>
+		<p class="text">
+		      Xin Lỗi Vì Sự Bất Tiện này , Trang Liên Kết Bạn Vừa Truy Cập Đã 
+			  Xảy Ra Sự Cố Khiến Bạn Không Thể Truy Cập Vào Hoặc Là Đường Dẫn
+			  Bạn Sắp Truy Cập Vào Chưa Hoàn Thiện. Hãy báo Cáo Với Chúng Tôi 													
+			  Chúng Tôi sẽ fix lỗi đó sớm nhất có thể 
+		</p>
+		<button class="back-to-home"> <a href="https://moondecial.github.io/MoonDecial/Home/home.html" class="none">Trở Về Trang Chủ</a></button>
+		<button class="back-to-home"><a href="https://discord.gg/gG4wvnkVKG" class="none">Báo Cáo Lỗi</a></button>
+	</div>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&display=swap');
+	* {
+		font-family: 'Baloo 2', cursive;
+	}
+	html {
+    min-height: 100%;
+	}
+
+	body {
+		background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+	}
+	.box {
+		position: absolute;
+		top: 50%;
+        left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 90%;
+		background: white;
+		width: 90%;
+		height: 80%;
+		border-radius:20px;
+		max-width: 900px;
+		max-height: 700px;
+		text-align: center;
+	}
+	.logo-text{
+		color: #A9C9FF;
+		font-size: 100px;
+	}
+	.text{
+		font-size: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.tieude{
+		font-size: 30px;
+	}
+	button{
+		background: #5E5DF0;
+		border-radius: 10px;
+		box-shadow: #5E5DF0 0 10px 20px -10px;
+		box-sizing: border-box;
+		color: #FFFFFF;
+		cursor: pointer;
+		font-size: 26px;
+		font-weight: 700;
+		line-height: 24px;
+		opacity: 1;
+		width: 50px;
+		height: 50px;
+		outline: 0 solid transparent;
+		padding: 8px 18px;
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+		width: fit-content;
+		word-break: break-word;
+		border: 0;
+		margin-left: 70px;
+		transition: linear 0.5s;
+		transform: perspective(10px);
+	}
+	button:hover{
+		transform: perspective(10px)
+				   skew(3deg,3deg)		
+			;
+	}
+	.none{
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	@media screen and (max-width:670px) {
+		button{
+			display: flex;
+			margin: auto;
+			margin-bottom: 20px;
+		}	
+  }
+	
+</style>

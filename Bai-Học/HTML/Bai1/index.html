@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Decial_CodeLab - Pascal - Bai 1</title>
+  <link rel="shortcut icon" href="https://cdn.glitch.global/5742894f-939f-45bd-aec6-bb0aa71e0f67/moondicial.ico?v=1669259917041" type="image/x-icon">
+  <link rel="stylesheet" href="./Data/style.css">
+  <link rel="stylesheet" href="./Data/logo.css">
+  <link rel="stylesheet" href="./Data/effect.css">
+  <link rel="stylesheet" href="./Data/Home.css">
+  <link rel="stylesheet" href="./Data/footer.css">
+  <link rel="stylesheet" href="./Data/custom-logo.css">
+  <link rel="stylesheet" href="./Data/var.css">
+  <link rel="stylesheet" href="./Data/mnv.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://kit.fontawesome.com/6e73c2bac4.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <ul class="links">
+          <li><a href="https://moondecial.github.io/MoonDecial/codelab.html" class = "setion-slect">🏠 Home</a></li>
+          <li><a href="https://www.facebook.com/groups/870049940850823" class ="normal">🧐 Feedback</a></li>
+          <li>
+            <a href="#" class="desktop-link">Code Tutorials</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Code Tutorials + </label>
+            <ul>
+              <li>
+                <input type="checkbox" id="show-items-8">
+                <label for="show-items-8">Tin Học Văn Phòng</label>
+                <ul class = "cl8">
+                  <li><a href="#" class = "a-se">Word</a></li>
+                  <li><a href="#" class = "a-se">Excel</a></li>
+                  <li><a href="#" class = "a-se">PowerPoint</a></li>
+                  <li><a href="#" class = "a-se">Canva</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Pascal</a>
+                <input type="checkbox" id="show-items-1">
+                <label for="show-items-1"><box-icon name='subdirectory-right' class = "on-st " color="#7883DD"></box-icon>Pascal</label>
+                <ul class = "cl1">
+                  <li><a href="#" class = "a-se"><box-icon name='subdirectory-right' class = "on-st " color="#7883DD"></box-icon>#1 - Giới Thiệu Về Pascal</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%202/index.html" class = "a-se">#2 - Biến và Hằng</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%203/index.html" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%204/index.html" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%205/index.html" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%206/index.html" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%207/index.html" class = "a-se">#7 - Sử Lý File</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%208/index.html" class = "a-se">#8 - Pascal Gui App</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">C</a>
+                <input type="checkbox" id="show-items-3">
+                <label for="show-items-3">C#</label>
+                <ul class = "cl3">
+                  <li><a href="#" class = "a-se">#1 - Get Started</a></li>
+                  <li><a href="#" class = "a-se">#2 - Syntax</a></li>
+                  <li><a href="#" class = "a-se">#3 - Output</a></li>
+                  <li><a href="#" class = "a-se">#4 - Comments</a></li>
+                  <li><a href="#" class = "a-se">#5 - Variables</a></li>
+                  <li><a href="#" class = "a-se">#6 - Data Types</a></li>
+                  <li><a href="#" class = "a-se">#7 - Type Casting</a></li>
+                  <li><a href="#" class = "a-se">#8 - User Input</a></li>
+                  <li><a href="#" class = "a-se">#9 - Operators</a></li>
+                  <li><a href="#" class = "a-se">#10 - Math</a></li>
+                  <li><a href="#" class = "a-se">#11 - Strings</a></li>
+                  <li><a href="#" class = "a-se">#12 - Booleans</a></li>
+                  <li><a href="#" class = "a-se">#13 - If ... Else</a></li>
+                  <li><a href="#" class = "a-se">#14 - Switch</a></li>
+                  <li><a href="#" class = "a-se">#15 - While Loop, For Loop<</a></li>
+                  <li><a href="#" class = "a-se">#16 - Break and Continue</a></li>
+                  <li><a href="#" class = "a-se">#17 - Arrays</a></li>
+                  <li><a href="#" class = "a-se">#18 - Methods</a></li>
+                  <li><a href="#" class = "a-se">#19 - Classes</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">HTML</a>
+                <input type="checkbox" id="show-items-2">
+                <label for="show-items-2">Html </label>
+                <ul class = "cl2">
+                  <li><a href="#" class = "a-se" >#1 - Get Started</a></li>
+                  <li><a href="#" class = "a-se" >#2 - Syntax</a></li>
+                  <li><a href="#" class = "a-se" >#3 - Main </a></li>
+                  <li><a href="#" class = "a-se" >#4 - Link </a></li>
+                  <li><a href="#" class = "a-se" >#5 - Color </a></li>
+                  <li><a href="#" class = "a-se" >#6 - Tag </a></li>
+                  <li><a href="#" class = "a-se" >#7 - Image , Table , music</a></li>
+                  <li><a href="#" class = "a-se" >#8 - Video</a></li>
+                  <li><a href="#" class = "a-se" >#9 - ID And Class</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Html</a>
+                <input type="checkbox" id="show-items-4">
+                <label for="show-items-4">css</label>
+                <ul class = "cl4">
+                  <li><a href="" class = "a-se">#1 - Giới Thiệu Về Pascal</a></li>
+                  <li><a href="" class = "a-se">#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se">#7 - Sử Lý File</a></li>
+                </ul>
+              </li>
+              <li>
+              <li>
+                <a href="#" class="desktop-link">css</a>
+                <input type="checkbox" id="show-items-5">
+                <label for="show-items-5">Js</label>
+                <ul class = "cl5">
+                  <li><a href="#" class = "a-se">#1 - Giới Thiệu Về Pascal</a></li>
+                  <li><a href="#" class = "a-se">#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se">#7 - Sử Lý File</a></li>
+                </ul>
+              </li>
+              <li>
+              <li>
+                 
+                <input type="checkbox" id="show-items-6">
+                <label for="show-items-6">python</label>
+                <ul class = "cl6">
+                  <li><a href="#" class = "a-se">#1 - Giới Thiệu Về Python</a></li>
+                  <li><a href="#" class = "a-se">#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se">#7 - Sử Lý File</a></li>
+                  <li><a href="#" class = "a-se">#8 - làm Quen với Thư Viện </a></li>
+                  <li><a href="#" class = "a-se">#9 - Gui</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">C</a>
+                <input type="checkbox" id="show-items-7">
+                <label for="show-items-7">C ++</label>
+                <ul class = "cl7">
+                  <li><a href="#" class = "a-se" >#1 - Giới Thiệu Về C++</a></li>
+                  <li><a href="#" class = "a-se" >#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se" >#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se" >#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se" >#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se" >#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se" >#7 - Sử Lý File</a></li>
+                </ul>
+              </li>
+          </li>
+          </ul>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="Home">
+    <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/groups/870049940850823" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://discord.gg/gG4wvnkVKGv" class="google"><i class="fab fa-discord"></i></a>
+  <a href="https://www.youtube.com/channel/UCkDJq5RIiq0SmTjqUvec6qA" class="youtube"><i class="fa fa-youtube"></i></a>
+<style>
+  .google{
+    background-color: #183153;
+  }
+</style>
+</div>
+    <div class="navbar-secs">
+      <a href="https://moondecial.github.io/MoonDecial/index.html">Home</a>
+      <a href="https://moondecial.blogspot.com"/>News</a>
+      <a href="https://moondecial.blogspot.com/">Post</a>
+      <a href="https://moondecial.github.io/MoonDecial/Search%20Page/sec.html">Search </a>
+      <div class="dropdown">
+        <button class="dropbtn">Lập Trình
+          <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-content">
+          <div class="header">
+            <h2>Tổng Hợp Các Bài Học Lập Trình Miễn Phí</h2>
+          </div>
+          <div class="row-nv">
+            <div class="column-nv">
+              <h3>Web</h3>
+              <a class="s-nv" href="#">Html</a>
+              <a class="s-nv" href="#">Css</a>
+              <a class="s-nv" href="#">JavaScript</a>
+              <a class="s-nv" href="#">PHP</a>
+              <a class="s-nv" href="#">Python Django</a>
+            </div>
+            <div class="column-nv">
+              <h3>Data</h3>
+              <a class="s-nv" href="#">Python SQLite</a>
+              <a class="s-nv" href="#">PHP</a>
+            </div>
+            <div class="column-nv">
+              <h3>C</h3>
+              <a class="s-nv" href="#">C++</a>
+              <a class="s-nv" href="#">C</a>
+              <a class="s-nv" href="#">C#</a>
+              <a class="s-nv" href="#">Cython</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="logo">
+      <img src="./Data/image/nice-logo.png" alt="logo" class="logo-omg">
+    </div>
+    <div class="footer">
+      <p></p>
+    </div> <a href="" class="mobilalogo">#1 - Giới Thiệu Về Pascal</a>
+    <div class="lm">
+        <p class="ht">
+          <label for="" class="bigt">1.</label> Pascal Là Gì , Tại Sao Phải Học Pascal<br>
+          <p class="nmtext">
+            - Pascal Là 1 ngôn ngữ lập trình bậc thấp có từ năm 1970
+            Pascal là ngôn ngữ lập trình đặc biệt thích hợp với kiểu 
+            lập trình cấu trúc và cấu trúc dữ liệu, ngôn ngữ lập trình 
+            này được đặt theo tên của nhà toán học, triết gia và nhà 
+            vật lí người Pháp Blaise Pascal.<br>
+            <img src="./Data/image/blaise-pascal-mot-nha-khoa-hoc-vi-dai-nguoi-da-chi-ra-gioi-han-cua-tu-duy-logic-2.jpg" alt="" class="vdf"><br>
+            * Nhà Bác Học Blaise Pascal (1623-1662)<br>
+            <label for="" class="ghin">* Sao Phải Học Pascal</label><br>
+            - Pascal Tuy Đã Lỗi Thời và khá là lạc hậu nhưng nếu như muốn học các ngôn ngữ lập trình khác thì mình nghĩ bạn nên học pascal
+            dể hiểu thuận toán trong lập trình và cải thiện tư duy để giúp bạn học các ngôn ngữ lập trình khác tốt hơn
+            và đó cũng là lý do chính vì sao hiện nay các tỉnh và 1 số trường học vẫn giảng dạy pascal 
+          </p>
+        </p>
+        <p class="ht">
+          <label for="" class="bigt">2.</label> Setup Ide Pascal
+          <p class="nmtext">
+            Bạn Có Thể Code Pascal Trên Máy Tính Và Cả Điện Thoại <br>
+            <label for="" class="ghin">Set Up Ide Pascal Cho Máy Tính</label><br>
+            <label for="" class="lowhl">A.</label>Website Sài Đc Trên Điện Thoại Và Máy Tính<br>
+            - Onlinegdb Là Ide Code Pascal Trên Web Rất Tốt
+            Hỗ Trợ Phím Tắt Của VsCode Và Không Bị Lỗi Các Thư Viện <br>
+            <a href="https://www.onlinegdb.com/" class="libkdown"> -Link Truy Cập : Onlinegdb</a><br>
+            <img src="./Data/image/image2.png" alt="" class="vdfbig"><br>
+            * Nhà Bác Học Blaise Pascal (1623-1662)<br>
+            <label for="" class="ghin">* Cách Sài Online Gdb</label><br>
+            - Để Sử Dựng Online Gdb Bạn Cần Phải Nhấn Vào Thanh dropdown Bênh Cạnh Language Sau Đó Chọn Pascal <br>
+            <label for="" class="lowhl">B.</label> App Trên Máy Tinh <br> 
+            <a href="https://www.onlinegdb.com/" class="libkdown"> -Link Tải : MediaFile</a><br>
+            <img src="./Data/image/image3.png" alt="" class="vdfbig"><br>
+            Ide Của Pascal Bên Máy Tính Thì Khá Là Si Đa , với không hề có phím tắt
+            xịn xò như vs code hay autocomplete như Các Ide Khác Vậy Nên Mình 
+            Khuyến Khích nên Sài Sublime Text Để Code Pascal Trên Máy Tính<br>
+            <a href="https://www.onlinegdb.com/" class="libkdown">Cách Code Pascal Bằng SubLime Text</a><br>
+            <a href="https://www.onlinegdb.com/" class="libkdown">Link Tải Pascal Trên Android</a><br>
+          </p>
+        </p>
+        <p class="ht">
+          <label for="" class="bigt">3.</label> Chạy Chương Trình - Phần Thang Chương Trình
+          <p class="nmtext">
+            <label for="" class="lowhl">A.</label>Cách Tạo File,lưu File Và Dịch Chương Trình <br>
+            Mời Bạn Xem Video Sau <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/89xTSZVv1qA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+            <label for="" class="lowhl">B.</label> Phần Thang Chương Trình<br> 
+          </p>
+            
+            <button class="accordion">Cấu Trúc Chương Trình</button>
+            <div class="panel">
+              <p>
+                <br>
+                <img src="./Data/image/ly-thuyet-lam-quen-voi-chuong-trinh-va-ngon-ngu-lap-trinh-2.png" alt="" class="vdfbig"><br>
+                <br>
+                Gồm 2 phần:
+                <br>
+                
+                - Phần khai báo:
+                <br>
+                
+                + Khai báo tên chương trình
+                <br>
+                
+                + Khai báo các thư viện.
+                <br>
+                
+                - Phần thân: chứa các câu lệnh để máy tính cần thực hiện, đây là phần bắt buộc phải có.
+                
+                <br>
+                Trong hình 2.3, ta thấy:
+                
+                <br>
+                - Phần khai báo: gồm 2 câu lệnh là khai báo tên chương trình là CT_Dau_Tien và khai báo thư viện Crt.
+                
+                <br>
+                - Phần thân: dùng từ khóa begin và end cho biết điểm bắt đầu và kết thúc chương trình và 1 câu lệnh in ra màn hình.
+              </p>
+            </div>
+            <button class="accordion">Quy Tắc Đặt Tên</button>
+            <div class="panel">
+              <p>
+                <p>Tên trong Pascal được đặt theo quy tắc sau đây: - Chỉ bao gồm chữ cái, chữ số và dấu gạch dưới; - Không bắt đầu bằng chữ số; Độ dài theo quy định của trình dịch (Turbo Pascal không quá 127 kí tự:, Free Pascal không quá 255 kí tự).</p>
+                <a class="libkdown">Vd</a><br>
+                Đề bài
+  
+  Hãy tự viết ra ba tên đúng theo quy tắc của Pascal. <br>
+  
+  Lời giải chi tiết <br>
+  
+  Ba tên đúng theo quy tắc của Pascal và có độ dài khác nhau:<br>
+  
+  tinhoc<br>
+  
+  tin_hoc_2007<br>
+  
+  hanoi2007<br>
+  
+  Lưu ý: Tên trong Pascal được đặt theo quy tắc sau đây:<br>
+  
+  - Chỉ bao gồm chữ cái, chữ số và dấu gạch dưới;<br>
+  
+  - Không bắt đầu bằng chữ số;<br>
+  
+  Độ dài theo quy định của trình dịch (Turbo Pascal không quá 127 kí tự:, Free Pascal <br>không quá 255 kí tự).<br>
+  
+  Tuy nhiên, tên không nên đặt quá dài hay quá ngắn mà nên đặt sao cho gợi nhớ ý nghĩa đối tượng mang tên đó.<br>
+              </p>
+            </div>
+
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                  panel.style.maxHeight = null;
+                } else {
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+                        <p>Chương Trình Ví Dụ Online in Ra màn hình "xin chao cac ban"</p>
+                        <div class="code">
+                          <label class="numcode">1</label>
+                          <label for="" class = "lht">Program</label> Heloo; <br>
+                          <label class="numcode">2</label>
+                          <label for="" class = "lht">Uses</label> Crt;<br>
+                          <label class="numcode">3</label>
+                          <label for="" class = "lht">Begin</label><br>
+                          <label class="numcode">4</label>
+                          <label for="" class = "lht">Clrscr;</label><br>
+                          <label class="numcode">5</label>
+                          <label for="" class = "lht">Writeln(</label><label for="" class="tcode">'Xin chao cac ban'</label><label for="" class = "lht">);</label><br>
+                          <label class="numcode">6 </label><label for="" class = "lht">Readln</label><br>
+                          <label class="numcode">7</label>
+                          <label for="" class = "lht">End.</label><br>
+                          <label class="numcode">8</label>
+                        </div>
+        </p>
+        <br>Kết Quả 
+        <br><br>
+        <div class="code">
+          Xin Chao Cac Ban
+        </div><br>
+        <button><a href="https://onlinegdb.com/HfSRBy_55" class="none">Try Or Coppy Code</a> </button>
+        <style>
+            button{
+            background: #5E5DF0;
+            border-radius: 10px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 24px;
+            opacity: 1;
+            width: 100px;
+            height: 50px;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+            transition: linear 0.5s;
+            transform: perspective(10px);
+          }
+          button:hover{
+            transform: perspective(2px)
+                  skew(3deg,3deg)		
+              ;
+          }
+          .none{
+            color: #FFFFFF;
+            text-decoration: none;
+          }
+          </style>
+        <p class="ht">
+          <label for="" class="bigt">4.</label> Các Lệnh Cơ Bản </p>
+        <p class="nmtext">
+        write(): in ra màn hình liền sau kí tự cuối. <br>
+        writeln(): in xuống một hàng. <br>
+        readln: Đọc Chương Trình ( Hiểu cơ bản là vậy)     <br>
+        //    : Khóa Câu Lệnh ở 1 dòng
+        </p>
+      </p>
+        <p class="ht">
+          <label for="" class="bigt">5.</label> Tổng Kết
+        </p>
+        <p class="nmtext">
+        qua bài đầu tiên của khóa học thì như ta thấy pascal cũng không có
+        nhiều ide và cú pháp cũng không phải xịn xò gì mấy nhưng các bạn vẫn
+        cần phải học pascal để hiểu được bản chất của ngôn ngữ lập trình và 
+        để học lập trình tốt thì bạn cần phải thực hành và làm bài tập nhiều
+        nên mình khuyên các bạn là hãy tham khảo và làm bài tập cơ bản pascal và 1 số ngôn ngữ khác
+        của MoonDecial Để có thể Học Pascal thật là tốt nha Hẹn gặp các bạn tại bài học sau 😘😘
+        </p>
+    </div>
+  </div>
+</body>
+</script>
+</html>

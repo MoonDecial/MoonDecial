@@ -1,0 +1,22 @@
+{
+  "name": "moondecial",
+  "version": "1.0.0",
+  "description": "* Exe Application : \r - Download App Window : https://moondecial.github.io/MoonDeical-DownLoad-Page/#home\r * Web Application : \r - Home : https://moondecial.github.io/MoonDecial/Home/home.html\r - CodeLab Home : https://moondecial.github.io/MoonDecial/codelab.html\r - KhoaDev:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonDecial/MoonDecial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoonDecial/MoonDecial/issues"
+  },
+  "homepage": "https://github.com/MoonDecial/MoonDecial#readme",
+  "dependencies": {
+    "md-block": "^0.0.1"
+  }
+}

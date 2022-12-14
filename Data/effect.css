@@ -1,0 +1,12 @@
+.setion-slect{
+    color: var(--high_text_color);
+}
+.content .links li label{
+    color: #CCD6E0; transition: all 0.3s ease;
+}
+.normal{
+    color:#36BEFF; 
+}
+.a-se{
+    color: #CCD6E0; transition: all 0.3s ease;
+}

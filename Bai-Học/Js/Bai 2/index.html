@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Decial_CodeLab - Pascal - Bai 2</title>
+  <link rel="shortcut icon" href="https://cdn.glitch.global/5742894f-939f-45bd-aec6-bb0aa71e0f67/moondicial.ico?v=1669259917041" type="image/x-icon">
+  <link rel="stylesheet" href="./Data/style.css">
+  <link rel="stylesheet" href="./Data/logo.css">
+  <link rel="stylesheet" href="./Data/effect.css">
+  <link rel="stylesheet" href="./Data/Home.css">
+  <link rel="stylesheet" href="./Data/footer.css">
+  <link rel="stylesheet" href="./Data/custom-logo.css">
+  <link rel="stylesheet" href="./Data/var.css">
+  <link rel="stylesheet" href="./Data/mnv.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://kit.fontawesome.com/6e73c2bac4.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <ul class="links">
+          <li><a href="https://moondecial.github.io/MoonDecial/codelab.html" class = "setion-slect">🏠 Home</a></li>
+          <li><a href="https://www.facebook.com/groups/870049940850823" class ="normal">🧐 Feedback</a></li>
+          <li>
+            <a href="#" class="desktop-link">Code Tutorials</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Code Tutorials + </label>
+            <ul>
+              <li>
+                <input type="checkbox" id="show-items-8">
+                <label for="show-items-8">Tin Học Văn Phòng</label>
+                <ul class = "cl8">
+                  <li><a href="#" class = "a-se">Word</a></li>
+                  <li><a href="#" class = "a-se">Excel</a></li>
+                  <li><a href="#" class = "a-se">PowerPoint</a></li>
+                  <li><a href="#" class = "a-se">Canva</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Pascal</a>
+                <input type="checkbox" id="show-items-1">
+                <label for="show-items-1"><box-icon name='subdirectory-right' class = "on-st " color="#7883DD"></box-icon>Pascal</label>
+                <ul class = "cl1">
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai1/index.html" class = "a-se">#1 - Giới Thiệu Về Pascal</a></li>
+                  <li><a href="#" class = "a-se"><box-icon name='subdirectory-right' class = "on-st " color="#7883DD"></box-icon>#2 - Biến và Hằng</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%203/index.html" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%204/index.html" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%205/index.html" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%206/index.html" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%207/index.html" class = "a-se">#7 - Sử Lý File</a></li>
+                  <li><a href="https://moondecial.github.io/MoonDecial/Bai-H%E1%BB%8Dc/Pascal/Bai%208/index.html" class = "a-se">#8 - Pascal Gui App</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">C</a>
+                <input type="checkbox" id="show-items-3">
+                <label for="show-items-3">C#</label>
+                <ul class = "cl3">
+                  <li><a href="#" class = "a-se">#1 - Get Started</a></li>
+                  <li><a href="#" class = "a-se">#2 - Syntax</a></li>
+                  <li><a href="#" class = "a-se">#3 - Output</a></li>
+                  <li><a href="#" class = "a-se">#4 - Comments</a></li>
+                  <li><a href="#" class = "a-se">#5 - Variables</a></li>
+                  <li><a href="#" class = "a-se">#6 - Data Types</a></li>
+                  <li><a href="#" class = "a-se">#7 - Type Casting</a></li>
+                  <li><a href="#" class = "a-se">#8 - User Input</a></li>
+                  <li><a href="#" class = "a-se">#9 - Operators</a></li>
+                  <li><a href="#" class = "a-se">#10 - Math</a></li>
+                  <li><a href="#" class = "a-se">#11 - Strings</a></li>
+                  <li><a href="#" class = "a-se">#12 - Booleans</a></li>
+                  <li><a href="#" class = "a-se">#13 - If ... Else</a></li>
+                  <li><a href="#" class = "a-se">#14 - Switch</a></li>
+                  <li><a href="#" class = "a-se">#15 - While Loop, For Loop<</a></li>
+                  <li><a href="#" class = "a-se">#16 - Break and Continue</a></li>
+                  <li><a href="#" class = "a-se">#17 - Arrays</a></li>
+                  <li><a href="#" class = "a-se">#18 - Methods</a></li>
+                  <li><a href="#" class = "a-se">#19 - Classes</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">HTML</a>
+                <input type="checkbox" id="show-items-2">
+                <label for="show-items-2">Html </label>
+                <ul class = "cl2">
+                  <li><a href="#" class = "a-se" >#1 - Get Started</a></li>
+                  <li><a href="#" class = "a-se" >#2 - Syntax</a></li>
+                  <li><a href="#" class = "a-se" >#3 - Main </a></li>
+                  <li><a href="#" class = "a-se" >#4 - Link </a></li>
+                  <li><a href="#" class = "a-se" >#5 - Color </a></li>
+                  <li><a href="#" class = "a-se" >#6 - Tag </a></li>
+                  <li><a href="#" class = "a-se" >#7 - Image , Table , music</a></li>
+                  <li><a href="#" class = "a-se" >#8 - Video</a></li>
+                  <li><a href="#" class = "a-se" >#9 - ID And Class</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">Html</a>
+                <input type="checkbox" id="show-items-4">
+                <label for="show-items-4">css</label>
+                <ul class = "cl4">
+                  <li><a href="#" class = "a-se">#1 - Giới Thiệu Về Pascal</a></li>
+                  <li><a href="#" class = "a-se">#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se">#7 - Sử Lý File</a></li>
+                </ul>
+              </li>
+              <li>
+              <li>
+                <a href="#" class="desktop-link">css</a>
+                <input type="checkbox" id="show-items-5">
+                <label for="show-items-5">Js</label>
+                <ul class = "cl5">
+                  <li><a href="#" class = "a-se">#1 - Giới Thiệu Về Pascal</a></li>
+                  <li><a href="#" class = "a-se">#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se">#7 - Sử Lý File</a></li>
+                </ul>
+              </li>
+              <li>
+              <li>
+                 
+                <input type="checkbox" id="show-items-6">
+                <label for="show-items-6">python</label>
+                <ul class = "cl6">
+                  <li><a href="#" class = "a-se">#1 - Giới Thiệu Về Python</a></li>
+                  <li><a href="#" class = "a-se">#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se">#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se">#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se">#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se">#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se">#7 - Sử Lý File</a></li>
+                  <li><a href="#" class = "a-se">#8 - làm Quen với Thư Viện </a></li>
+                  <li><a href="#" class = "a-se">#9 - Gui</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#" class="desktop-link">C</a>
+                <input type="checkbox" id="show-items-7">
+                <label for="show-items-7">C ++</label>
+                <ul class = "cl7">
+                  <li><a href="#" class = "a-se" >#1 - Giới Thiệu Về C++</a></li>
+                  <li><a href="#" class = "a-se" >#2 - Biến và Hăng</a></li>
+                  <li><a href="#" class = "a-se" >#3 - Câu Lệnh Điều Kiện</a></li>
+                  <li><a href="#" class = "a-se" >#4 - Vòng lặp</a></li>
+                  <li><a href="#" class = "a-se" >#5 - Mảng Và String</a></li>
+                  <li><a href="#" class = "a-se" >#6 - Chương Trình Con</a></li>
+                  <li><a href="#" class = "a-se" >#7 - Sử Lý File</a></li>
+                </ul>
+              </li>
+          </li>
+          </ul>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="Home">
+    <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/groups/870049940850823" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://discord.gg/gG4wvnkVKGv" class="google"><i class="fab fa-discord"></i></a>
+  <a href="https://www.youtube.com/channel/UCkDJq5RIiq0SmTjqUvec6qA" class="youtube"><i class="fa fa-youtube"></i></a>
+<style>
+  .google{
+    background-color: #183153;
+  }
+</style>
+</div>
+    <div class="navbar-secs">
+      <a href="https://moondecial.github.io/MoonDecial/index.html">Home</a>
+      <a href="https://moondecial.blogspot.com"/>News</a>
+      <a href="https://moondecial.blogspot.com/">Post</a>
+      <a href="https://moondecial.github.io/MoonDecial/Search%20Page/sec.html">Search </a>
+      <div class="dropdown">
+        <button class="dropbtn">Lập Trình
+          <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-content">
+          <div class="header">
+            <h2>Tổng Hợp Các Bài Học Lập Trình Miễn Phí</h2>
+          </div>
+          <div class="row-nv">
+            <div class="column-nv">
+              <h3>Web</h3>
+              <a class="s-nv" href="#">Html</a>
+              <a class="s-nv" href="#">Css</a>
+              <a class="s-nv" href="#">JavaScript</a>
+              <a class="s-nv" href="#">PHP</a>
+              <a class="s-nv" href="#">Python Django</a>
+            </div>
+            <div class="column-nv">
+              <h3>Data</h3>
+              <a class="s-nv" href="#">Python SQLite</a>
+              <a class="s-nv" href="#">PHP</a>
+            </div>
+            <div class="column-nv">
+              <h3>C</h3>
+              <a class="s-nv" href="#">C++</a>
+              <a class="s-nv" href="#">C</a>
+              <a class="s-nv" href="#">C#</a>
+              <a class="s-nv" href="#">Cython</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="logo">
+      <img src="./Data/image/nice-logo.png" alt="logo" class="logo-omg">
+    </div>
+    <div class="footer">
+      <p></p>
+    </div> <a href="" class="mobilalogo">#2 - Biến và Hằng</a>
+    <div class="lm">
+      <p class="ht"><label for="" class="bigt">1.</label> Cách Khai báo Biến , kiểu dữ liệu , Gán Dữ Liệu Cho Biến</p>
+      <type class="nmtext">
+        - Biến là giá trị có thể thay đổi được trong mỗi chương trình, mỗi biến trong Pascal có một kiểu dữ  liệu nhất định, xác định kích thước và cách bố trí trong bộ nhớ, phạm vi các giá trị có thể được lưu trữ trong bộ nhớ đó; và bộ toán tử có thể áp dụng cho biến.<br>
+        <br>
+        - Tên của biến có thể bao gồm các chữ cái, chữ số, ký tự gạch chân và phải bắt đầu bằng chữ cái hoặc ký tự gạch chân. Pascal không phân biệt chữ hoa và chữ thường, vì vậy sử dụng chữ hoa hay chữ thường cũng đều như nhau <br>
+        <br>
+        Tất cả các biến phải được khai báo trước khi sử dụng chương trình Pascal. Tất cả các khai báo biến theo sau từ var. Một khai báo chỉ định một danh sách biến, tiếp theo là dấu hai chấm (:) và kiểu biến. Cú pháp khai báo biến:
+        <br><br>
+        var variable_list : type; <br>
+        <em>
+          Gián Giá Trị Cho Biến
+        </em><br>
+        variable_list := Giá_trị; <br>
+        Vd: <br>
+        <div class="code">
+          <label class="numcode">1</label>
+          <label for="" class = "lht">Program</label> Heloo; <br>
+          <label class="numcode">2</label>
+          <label for="" class = "lht">Uses</label> Crt;<br>
+          <label class="numcode">3</label>
+          <label for="" class = "lht">Var</label> kum : integer;<br>
+          <label class="numcode">4</label>
+          <label for="" class = "lht">Begin</label><br>
+          <label class="numcode">5</label>
+          <label for="" class = "lht">Clrscr;</label><br>
+          <label class="numcode">6</label>
+          <label for="" class = "lht">Kum := </label>5;<br>
+          <label class="numcode">7</label>
+          <label for="" class = "lht">Writeln(</label><label for="" class="tcode">'Gia Tri Cua kum La ',kum</label><label for="" class = "lht">);</label><br>
+          <label class="numcode">8</label><label for="" class = "lht">Readln</label><br>
+          <label class="numcode">9</label>
+          <label for="" class = "lht">End.</label>
+        </div>
+        <Br>
+          <em> // Kết Quả // </em>
+          <br>
+          <div class="code">
+              Gia Tri Cua kum La 5
+          </div>
+        <br>
+        Trong đó type phải là kiểu biến Pascal hợp lệ, bao gồm các ký tự (character), số nguyên (interger), số thực (real), boolean hoặc bất kỳ kiểu dữ liệu do người dùng chỉ định, … . Và variable_list có thể bao gồm một hoặc nhiều tên định danh được phân tách nhau bởi dấu phẩy. <br><br>
+        
+        Dưới đây là một số khai báo biến hợp lệ:<br><br>
+        <label for="" class="toden">Var</label> <br>
+        age, weekdays : integer;<br>
+        taxrate, net_income: real;<br>
+        choice, isready: boolean;<br>
+        initials, grade: char;<br>
+        name, surname : string;<br>
+        <br>
+        Pascal cho phép khai báo kiểu. Có thể xác định kiểu khai báo bằng tên hoặc định danh. Ngoài ra có thể sử dụng khai báo kiểu để xác định các kiểu biến .
+        <br><br>
+        Ví dụ:
+        <br><br>
+        <label for="" class="toden">Type</label>
+        days, age = integer;<br>
+        yes, true = boolean;<br>
+        name, city = string;<br>
+        fees, expenses = real;<br>
+        <br><br>
+        Lưu ý giữa khai báo kiểu (type) và khai báo biến (var) có sự khác nhau. Khai báo kiểu cho biết các kiểu như integer (kiểu số nguyên), real (số thực), … . Còn khai báo biến cho biết giá trị mà một biến có thể thực hiện.
+
+        Bạn có thể so sánh khai báo kiểu trong Pascal với typedef trong C. Quan trọng nhất là tên biến đề cập đến vị trí bộ nhớ, nơi mà giá trị của biến sẽ được lưu trữ, còn khai báo kiểu thì không.
+      </p>
+      <p class="ht"><label for="" class="bigt">2.</label> Hằng</p>
+      <p class="nmt">
+        Hằng trong Pascal là đại lượng có giá trị không đổi trong quá trình thực hiện chương trình. Pascal chỉ cho phép khai báo các kiểu hằng dưới đây:
+        <br><br>
+        - Ordinal type <br>
+        - Set type<br>
+        - Pointer type (chỉ cho phép giá trị là Nil)<br>
+        - Real type<br>
+        - Char<br>
+        - String
+        <br><br>
+        Khai Báo Hằng Trong Pascal
+        <br><br>
+        Cú pháp khai báo hằng trong Pascal có dạng như dưới đây:
+        <br><br>
+        <label for="" class="toden">Const</label><br><br>
+        identifier = constant_value;<br>
+        Vd: <br>
+        <div class="code">
+          <label class="numcode">1</label>
+          <label for="" class = "lht">Program</label> Heloo; <br>
+          <label class="numcode">2</label>
+          <label for="" class = "lht">Uses</label> Crt;<br>
+          <label class="numcode">3</label>
+          <label for="" class = "lht">Const</label> Pi = 3.14;<br>
+          <label class="numcode">4</label>
+          <label for="" class = "lht">Begin</label><br>
+          <label class="numcode">5</label>
+          <label for="" class = "lht">Clrscr;</label><br>
+          <label class="numcode">6</label>
+          <label for="" class = "lht">Writeln(</label><label for="" class="tcode">'Gia Tri Cua Pi La ',pi</label><label for="" class = "lht">);</label><br>
+          <label class="numcode">7</label><label for="" class = "lht">Readln</label><br>
+          <label class="numcode">8</label>
+          <label for="" class = "lht">End.</label><br>
+          <label class="numcode">9</label>
+        </div>
+        <Br>
+          <em> // Kết Quả // </em>
+          <br>
+          <div class="code">
+              Gia Tri Cua Pi La 3.14
+          </div>
+          <Br>
+            Vd: 
+        <div class="code">
+          <label class="numcode">1</label>
+          <label for="" class = "lht">Program</label> Heloo2; <br>
+          <label class="numcode">2</label>
+          <label for="" class = "lht">Uses</label> Crt;<br>
+          <label class="numcode">3</label>
+          <label for="" class = "lht">Const</label> Lol = 'Khoa Dep Trai Qua Troi oi';<br>
+          <label class="numcode">4</label>
+          <label for="" class = "lht">Begin</label><br>
+          <label class="numcode">5</label>
+          <label for="" class = "lht">Clrscr;</label><br>
+          <label class="numcode">6</label>
+          <label for="" class = "lht">Writeln(</label><label for="" class="tcode">'Uay',lol</label><label for="" class = "lht">);</label><br>
+          <label class="numcode">7</label><label for="" class = "lht">Readln</label><br>
+          <label class="numcode">8</label>
+          <label for="" class = "lht">End.</label><br>
+          <label class="numcode">9</label>
+        </div>
+        <Br>
+        <em> // Kết Quả // </em>
+        <br>
+        <div class="code">
+            Uay Khoa Dep Trai Qua Troi oi
+        </div>
+        <Br>
+        </p>
+        <p class="ht"><label for="" class="bigt">3.</label> Booleans
+        </p>
+        <p class="nmt">
+          - Từ khóa: BOOLEAN<br>
+          - Giá trị Tiêu Chuẩn: (TRUE, FALSE).<br>
+          Trong Pascal, khi so sánh các giá trị boolean ta tuân theo qui tắc: FALSE < TRUE.
+          <Br>
+            Vd: 
+        <div class="code">
+          <label class="numcode">1</label>
+          <label for="" class = "lht">Program</label> Heloo3; <br>
+          <label class="numcode">2</label>
+          <label for="" class = "lht">Uses</label> Crt;<br>
+          <label class="numcode">3</label>
+          <label for="" class = "lht">Var</label> a:boolean;<br>
+          <label class="numcode">4</label>
+          <label for="" class = "lht">Begin</label><br>
+          <label class="numcode">5</label>
+          <label for="" class = "lht">Clrscr;</label><br>
+          <label class="numcode">6</label>
+          <label for="" class = "lht">a:=</label>False;<br>
+          <label class="numcode">6</label>
+          <label for="" class = "lht">Writeln(</label><label for="" class="tcode">' ',a</label><label for="" class = "lht">);</label><br>
+          <label class="numcode">7</label><label for="" class = "lht">Readln</label><br>
+          <label class="numcode">8</label>
+          <label for="" class = "lht">End.</label><br>
+          <label class="numcode">9</label>
+        </div>
+        <Br>
+        <em> // Kết Quả // </em>
+        <br>
+        <div class="code">
+             FALSE
+        </div>
+      </p>
+      <p class="ht"><label for="" class="bigt">4.</label> Cách Sử Dụng Biến Trong Pascal<br>
+          <em>// Cách nhập Giá Trị Cho Biến từ bàn phím //</em> <br>
+          <div class="code">
+            <label class="numcode">1</label>
+            <label for="" class = "lht">Program</label> Heloo4; <br>
+            <label class="numcode">2</label>
+            <label for="" class = "lht">Uses</label> Crt;<br>
+            <label class="numcode">3</label>
+            <label for="" class = "lht">Var</label> a:integer;<br>
+            <label class="numcode">4</label>
+            <label for="" class = "lht">Begin</label><br>
+            <label class="numcode">5</label>
+            <label for="" class = "lht">Clrscr;</label><br>
+            <label class="numcode">6</label>
+            <label for="" class = "lht">Writeln(</label><label for="" class="tcode">' Nhap Gia Tri Cho A : '</label><label for="" class = "lht">);<label for="" class="lht">Readln(a);</label>
+
+            </label><br>
+            <label class="numcode">7</label><label for="" class = "lht">Readln</label><br>
+            <label class="numcode">8</label>
+            <label for="" class = "lht">End.</label><br>
+            <label class="numcode">9</label>
+          </div>
+          <strong>
+            Giải Thích Chi Tiết
+
+            <p class="nmt">Readln(Bien); Là câu lệnh để thu thập dữ liệu do người dùng nhập vào
+                            trong đó nếu muốn nhập vào giá trị thì phải nhập giá trị trước sau đó 
+                            nhấn enter để kết thúc quá trình nhập giá trị
+            </p>
+          </strong><br>
+          <em>// Kiểu Dữ Liệu Pascal //</em>
+          <p class="nmt">
+            <div style="overflow-x: auto; border-radius: 5px;">
+            <table>
+              <tr class = "tittle">
+                <th>Kiểu</th>
+                <th>Loại Giá Trị</th>
+                <th>Phạm Vi</th>
+              </tr>
+              <tr>
+      <td>Byte</td>
+      <td>Các Số Nguyên</td>
+      <td>0 đến 255</td>
+    </tr>
+              <tr>
+      <td>Integer</td>
+      <td>Các Số nguyên</td>
+      <td>-32768 Đến 32767</td>
+    </tr>
+    <tr>
+      <td>LongInt</td>
+      <td>Các Số Nguyên</td>
+      <td>-2147483648 Đến 2147483647</td>
+    </tr>
+      <td>Real</td>
+      <td>Số Thục / Số Thập phân</td>
+      <td>Giá Trị Tuyệt Đối Trong khoảng 1,5*10^-45 Cho Đến 3,4x10^38 và số 0</td>
+    </tr>
+    <tr>
+      <td>Char</td>
+      <td>Chữ / Ký Tự</td>
+      <td>Chỉ <strong> 1 </strong> và 1 trong bảng chử cái</td>
+    </tr>
+    <tr>
+      <td>String</td>
+      <td>Xâu Ký Tự</td>
+      <td>Tối Đa Gồm 255 kí Tự </td>
+    </tr>
+  </table>
+</div>
+  <em>// Các Phép Toán Dữ Liệu Kiểu Số //</em>
+  <br>
+  <table>
+    <tr class = "tittle">
+      <th>Kí Hiệu</th>
+      <th>Phép Toán</th>
+      <th>Kiểu Dữ Liệu</th>
+    </tr>
+    <tr>
+      <td> + </td>
+      <td> Cộng </td>
+      <td>  Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> - </td>
+      <td>Trừ</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> * </td>
+      <td>Nhân</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> / </td>
+      <td> Chia</td>
+      <td> Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> div </td>
+      <td>Chia Lấy Phần Nguyên</td>
+      <td>Số Nguyên</td>
+    </tr>
+    <tr>
+      <td> mod</td>
+      <td>Chia Lấy Phần Dư</td>
+      <td>Số Nguyên </td>
+    </tr>
+  </table>
+  <em>// Các Phép Toán Dữ Liệu Kiểu Số //</em>
+  <br>
+  <table>
+    <tr class = "tittle">
+      <th>Kí Hiệu</th>
+      <th>Phép Toán</th>
+      <th>Kiểu Dữ Liệu</th>
+    </tr>
+    <tr>
+      <td> + </td>
+      <td> Cộng </td>
+      <td>  Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> - </td>
+      <td>Trừ</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> * </td>
+      <td>Nhân</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> / </td>
+      <td> Chia</td>
+      <td> Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>  
+      <td> div </td>
+      <td>Chia Lấy Phần Nguyên</td>
+      <td>Số Nguyên</td>
+    </tr>
+    <tr>
+      <td> mod</td>
+      <td>Chia Lấy Phần Dư</td>
+      <td>Số Nguyên </td>
+    </tr>
+  </table>
+  <em>// Các Phép So Sánh Pascal //</em>
+  <br>
+  <table>
+    <tr class = "tittle">
+      <th>Kí Hiệu</th>
+      <th>Phép Toán</th>
+      <th>Kiểu Dữ Liệu</th>
+    </tr>
+    <tr>
+      <td> + </td>
+      <td> Cộng </td>
+      <td>  Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> - </td>
+      <td>Trừ</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> * </td>
+      <td>Nhân</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> / </td>
+      <td> Chia</td>
+      <td> Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> div </td>
+      <td>Chia Lấy Phần Nguyên</td>
+      <td>Số Nguyên</td>
+    </tr>
+    <tr>
+      <td> mod</td>
+      <td>Chia Lấy Phần Dư</td>
+      <td>Số Nguyên </td>
+    </tr>
+  </table>
+  <em>// Các Phép Toán Dữ Liệu Kiểu Số //</em>
+  <br>
+  <table>
+    <tr class = "tittle">
+      <th>Kí Hiệu</th>
+      <th>Phép Toán</th>
+      <th>Kiểu Dữ Liệu</th>
+    </tr>
+    <tr>
+      <td> + </td>
+      <td> Cộng </td>
+      <td>  Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> - </td>
+      <td>Trừ</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> * </td>
+      <td>Nhân</td>
+      <td>Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> / </td>
+      <td> Chia</td>
+      <td> Số Nguyên , Số Thực</td>
+    </tr>
+    <tr>
+      <td> div </td>
+      <td>Chia Lấy Phần Nguyên</td>
+      <td>Số Nguyên</td>
+    </tr>
+    <tr>
+      <td> mod</td>
+      <td>Chia Lấy Phần Dư</td>
+      <td>Số Nguyên </td>
+    </tr>
+  </table>
+  </p>
+  <br><br>
+Mod: Là phép toán chia lấy phần dư hay phép chia lấy phần dư trong pascal là Mod <br>
+<br>
+Div: Là phép toán chia lấy phần nguyên.
+<br><br>
+Ví dụ: 13 div 5 = 2 và 13 mod 5 = 3 (vì 13 chia cho 5 được 2 dư 3)
+<br><br>
+Ủa nó có liên quan gì đâu đến việc lấy ra các chữ số của một số nguyên nhỉ! Có đấy các bạn, các bạn xem thử nhé: 123456 mod 10 = 6, lấy được số 6 cuối cùng rồi, 123456 div 10 = 12345 bỏ đi chữ số cuối cùng rồi, 12345 mod 10 = 5 lại lấy được chữ số 5 ra rồi nhé, …vậy là bạn đã hiểu cách dùng hai phép toán Mod, Div để tách lấy được các chữ số của một số nguyên chưa nào. Ta chỉ cần lập trình để đếm và cộng dồn các chữ số đó là OK phải không nào. Vậy ta đã biết được mod là phép toán gì và div là phép toán gì rồi chứ.
+      </p>
+    </div>
+</body>
+</script>
+</html>

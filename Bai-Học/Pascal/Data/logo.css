@@ -1,0 +1,42 @@
+.Logo_box{
+  width: 260px;
+  height: 60px;
+  background-color:white;
+  border-radius: 5px;
+  text-align: center;
+}
+.Logo_box{
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  border-radius: 8px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0 1.6rem;
+  text-align: center;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
+}
+
+.Logo_box {
+  box-shadow: rgba(231, 157, 213, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+  display: flex;
+  position: absolute;
+  right: 0px;
+}
+.logo{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family:'Baloo 2',cursive ;
+  margin: auto;
+}
