@@ -173,7 +173,7 @@ body::-webkit-scrollbar-thumb {
   padding: 1rem;
   background-color:#030F2B;
   position: fixed;
-  width: 80%;
+  width: 50%;
   border-radius: 20px;
   right: 50%;
   left: 50%;
