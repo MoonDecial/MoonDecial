@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'baloo 2' ,cursive ; transition: all 0.5s linear;
+  font-family: 'baloo 2' ,cursive;
 }
 .wrapper{
   position: fixed;

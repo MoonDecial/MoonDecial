@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+html, body {
+  height: 100%;
+  width: 100%;
+  background:#0D1117;
+
+}
+/*box*/
+.title{
+    text-align: center;
+}
+.conter {
+  margin: 0 auto;
+  height: 460px;
+  width: 400px;
+  background: #0D1117;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: #A8AFB7;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+              rgba(0, 0, 0, 0.12) 0px -12px 30px,
+              rgba(0, 0, 0, 0.12) 0px 4px 6px,
+              rgba(0, 0, 0, 0.17) 0px 12px 13px,
+              rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+
+}
+/*title*/
+h1{
+
+  color: #2F80ED;
+  font-size:30px;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+
+
+
+/*Login button*/
+#button-login {
+  width: 100;
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #2f80ed;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+}
+
+.button-login:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-login:hover:after {
+  opacity: .5;
+}
+
+.button-login:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-65:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .button-65 {
+    padding: 14px 22px;
+    width: 400px;
+  }
+}
+
+/*Email*/
+.email {
+  color: white;
+  border-style: solid;
+  border-color: #A8AFB7;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px ;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #161B22;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.pass {
+  color: white;
+  border-style: solid;
+  border-color: #A8AFB7;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px ;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #161B22;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/*repass*/
+.repass {
+  color: white;
+  border-style: solid;
+  border-color: #A8AFB7;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px ;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #161B22;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+/*login title */
+.logintitle {
+  margin-top: 25px;
+  color: #2F80ED;
+  font-size: 25px;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+/*Quên mẹ mật khẩu*/
+.quenmk{
+  color:#2D98FF;
+  margin-right:10px ;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+
+/*đăng ký tài khoảng */
+.noacc{
+  color: #2D98FF;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+
+.byxe{
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-weight: 200px;
+  font-size: 20px;
+  color:#2D98FF;
+}
