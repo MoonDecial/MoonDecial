@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "baloo 2",cursive;
     scroll-behavior: smooth;
 }
 h1 {
@@ -18,11 +21,24 @@ h4 {
     color: #aaa;
 }
 
-i {
-    font-size: 1.5rem;
-    color: #fff;
+::-webkit-scrollbar {
+  width: 10px;
+
 }
 
+.logomini{
+  width: 60px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(-45deg, #6a5af9, #d66efd);
+  border-radius: 50px;
+  max-height: 100px;
+}
 p,
 a {
     font-size: 0.9rem;
@@ -58,6 +74,7 @@ img {
     left: 0;
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     object-fit: cover;
 }
 
@@ -68,13 +85,16 @@ img {
     padding-left: 80px;
     display: flex;
     position: absolute;
-    height: calc( 100vh - 60px);
+    height:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     width: 100%;
+    z-index: 2;
     background-color: var(--body-color);
     transition: var(--tran-05);
 }
 
-
+#susl{z-index:90}
 /* sidebar stars here */
 
 
@@ -84,35 +104,6 @@ img {
     width: 100%;
 }
 
-.chips-wrapper {
-    overflow-x: scroll;
-    background-color: var(--body-color);
-    transition: var(--tran-05);
-    display: flex;
-    padding-left: 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.chips-wrapper::-webkit-scrollbar {
-    height: 0;
-}
-
-.chip {
-    margin: 12px 6px;
-    padding: 6px 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    white-space: nowrap;
-    cursor: pointer;
-    color: #fff;
-    background-color: var(--primary-color);
-    transition: .5s;
-}
-
-.chip:hover {
-    background-color: #4D4D4D;
-}
 
 
 /* video container startrs here  */
@@ -122,16 +113,19 @@ img {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 18px;
     padding: 20px 25px;
-    background-color: var(--body-color);
+    background-color: var(--sidebar-color);
     transition: var(--tran-05);
     overflow-y: scroll;
-    height: calc(100vh - 116px);
+    height: 100%;
 }
 
 .video-content-cover {
     position: relative;
     transition: .5s;
     transition-delay: .05s;
+    background-color: var(--box-color);
+    border-radius: 10px;
+    height: 300px;
 }
 
 .video-content {
@@ -139,23 +133,17 @@ img {
     position: relative;
     transition: .5s;
     width: 100%;
-}
+  }
 .video-box {
     position: relative;
     width: auto;
-    height: 145px;
+    height: 200px;
     display: block;
 }
-
 .video-details {
     display: flex;
     color: #fff;
     padding-top: 12px;
-}
-
-.video-content:hover .channel-logo {
-    min-width: 25px;
-    height: 25px;
 }
 
 .channel-logo {
@@ -170,27 +158,17 @@ img {
     margin-left: 12px;
 }
 
-.video-content:hover .title {
-    font-size: .7rem;
-}
 
 .title {
     font-size: .9rem;
+    color : var(--text-color);
 }
-
-.video-content:hover .channel-name {
-    font-size: .6rem;
-}
-
 .channel-name {
     font-size: .8rem;
     margin-top: 10px;
     color: #aaa;
 }
 
-.video-content:hover .views-upload {
-    font-size: .6rem;
-}
 
 .views-upload {
     display: flex;
@@ -213,28 +191,13 @@ img {
     justify-content: center;
 }
 
-.btn i {
-    font-size: .7rem;
-    margin-right: 5px;
-    color: #aaa;
-}
-
-.hidden-content {
-    display: none;
-    padding: 5px 10px;
-    background-color: #202020;
-}
-
-.video-content:hover .hidden-content {
-    display: block;
-}
 
 
 /* responsive starts here */
 
 @media (max-width:1200px) {
     .sidebar {
-        width: 70px;
+        width: 50px;
         overflow-x: hidden;
     }
     .content {
@@ -243,6 +206,7 @@ img {
     .more {
         display: none;
     }
+    
 }
 
 @media (max-width:1050px) {
@@ -271,21 +235,6 @@ img {
     }
     .header {
         padding-right: 10px;
-    }
-    .video-content:hover {
-        transform: none;
-        position: relative;
-        box-shadow: none;
-        background-color: #181818;
-    }
-    .video-content-cover:hover {
-        transform: none;
-    }
-    .video-content-cover:nth-child(4n+1):hover {
-        transform: none;
-    }
-    .video-content-cover:nth-child(4n+4):hover {
-        transform: none;
     }
     .video-content:hover .video-details {
         background-color: #181818;
@@ -382,7 +331,7 @@ img {
   --primary-color-light: #F6F5FF;
   --toggle-color: #DDD;
   --text-color: #707070;
-
+  --box-color: #ECEDFF;
   /* ====== Transition ====== */
   --tran-03: all 0.2s ease;
   --tran-03: all 0.3s ease;
@@ -391,20 +340,23 @@ img {
 }
 
 body{
-  min-height: 100vh;
+  min-height: 100%;
   background-color: var(--body-color);
   transition: var(--tran-05);
 }
-
-::selection{
-  background-color: var(--primary-color);
-  color: #fff;
+.tieu-de-muc{
+  height: 70px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--body-color);
+  padding-left: 80px;
 }
 
 body.dark{
+  --box-color: #131111;
   --body-color: #18191a;
   --sidebar-color: #242526;
-  --primary-color: #3a3b3c;
+  --primary-color: #2E2F2F;
   --primary-color-light: #3a3b3c;
   --toggle-color: #fff;
   --text-color: #ccc;
@@ -418,7 +370,7 @@ body.dark{
   height: 100%;
   width: 250px;
   padding: 10px 14px;
-  background: var(--sidebar-color);
+  background: var(--primary-color-light);
   transition: var(--tran-05);
   z-index: 100;  
   overflow: hidden;
@@ -491,6 +443,7 @@ header .image-text .profession{
   font-size: 16px;
   margin-top: -2px;
   display: block;
+  padding-left:20px ;
 }
 
 .sidebar header .image{
@@ -507,8 +460,7 @@ header .image-text .profession{
 .sidebar header .toggle{
   position: absolute;
   top: 50%;
-  right: -25px;
-  z-index: 7;
+  right: 15px;
   transform: translateY(-50%) rotate(180deg);
   height: 25px;
   width: 25px;

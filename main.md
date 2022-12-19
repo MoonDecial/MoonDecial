@@ -54,7 +54,6 @@ button{
       border-radius: 50px;
       max-height: 100px;
     }
-
 ```
 # Fix Navbar
 ```css

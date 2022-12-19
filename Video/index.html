@@ -6,136 +6,134 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>YouTube</title>
+  <title>MoonDecial Media</title>
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
   <div class="body-container">
     <nav class="sidebar close">
       <header>
-          <div class="image-text">
-              <span class="image">
-                  <!--<img src="logo.png" alt="">-->
-              </span>
-
-              <div class="text logo-text">
-                  <span class="name">Codinglab</span>
-                  <span class="profession">Web developer</span>
-              </div>
+        <div class="image-text">
+          <span class="image">
+          <div class="text logo-text">
+            <span class="name"></span>
+            <span class="profession">    </span>
           </div>
-
-          <i class='bx bx-chevron-right toggle'></i>
+        </div>
+        <br><br>
+        <i class='bx bx-chevron-right toggle' id = "susl"></i>
       </header>
 
       <div class="menu-bar">
-          <div class="menu">
+        <div class="menu">
 
-              <li class="search-box">
-                  <i class='bx bx-search icon'></i>
-                  <input type="text" placeholder="Search...">
-              </li>
+          <li class="search-box">
+            <i class='bx bx-search icon'></i>
+            <input type="text" placeholder="Search...">
+          </li>
 
-              <ul class="menu-links">
-                  <li class="nav-link">
-                      <a href="#">
-                          <i class='bx bx-home-alt icon' ></i>
-                          <span class="text nav-text">Dashboard</span>
-                      </a>
-                  </li>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-home-alt icon'></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
 
-                  <li class="nav-link">
-                      <a href="#">
-                          <i class='bx bx-bar-chart-alt-2 icon' ></i>
-                          <span class="text nav-text">Revenue</span>
-                      </a>
-                  </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-bar-chart-alt-2 icon'></i>
+                <span class="text nav-text">Revenue</span>
+              </a>
+            </li>
 
-                  <li class="nav-link">
-                      <a href="#">
-                          <i class='bx bx-bell icon'></i>
-                          <span class="text nav-text">Notifications</span>
-                      </a>
-                  </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-bell icon'></i>
+                <span class="text nav-text">Notifications</span>
+              </a>
+            </li>
 
-                  <li class="nav-link">
-                      <a href="#">
-                          <i class='bx bx-pie-chart-alt icon' ></i>
-                          <span class="text nav-text">Analytics</span>
-                      </a>
-                  </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-pie-chart-alt icon'></i>
+                <span class="text nav-text">Analytics</span>
+              </a>
+            </li>
 
-                  <li class="nav-link">
-                      <a href="#">
-                          <i class='bx bx-heart icon' ></i>
-                          <span class="text nav-text">Likes</span>
-                      </a>
-                  </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-heart icon'></i>
+                <span class="text nav-text">Likes</span>
+              </a>
+            </li>
 
-                  <li class="nav-link">
-                      <a href="#">
-                          <i class='bx bx-wallet icon' ></i>
-                          <span class="text nav-text">Wallets</span>
-                      </a>
-                  </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-wallet icon'></i>
+                <span class="text nav-text">Wallets</span>
+              </a>
+            </li>
 
-              </ul>
-          </div>
+          </ul>
+        </div>
 
-          <div class="bottom-content">
-              <li class="">
-                  <a href="#">
-                      <i class='bx bx-log-out icon' ></i>
-                      <span class="text nav-text">Logout</span>
-                  </a>
-              </li>
+        <div class="bottom-content">
+          <li class="https://moondecial.github.io/MoonDecial/Home/home.html">
+            <a href="https://moondecial.github.io/MoonDecial/Home/home.html">
+              <i class='bx bx-log-out icon'></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
 
-              <li class="mode">
-                  <div class="sun-moon">
-                      <i class='bx bx-moon icon moon'></i>
-                      <i class='bx bx-sun icon sun'></i>
-                  </div>
-                  <span class="mode-text text">Dark mode</span>
+          <li class="mode">
+            <div class="sun-moon">
+              <i class='bx bx-moon icon moon'></i>
+              <i class='bx bx-sun icon sun'></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
 
-                  <div class="toggle-switch">
-                      <span class="switch"></span>
-                  </div>
-              </li>
-              
-          </div>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+
+        </div>
       </div>
 
-  </nav>
+    </nav>
 
 
-  <script>
+    <script>
       const body = document.querySelector('body'),
-    sidebar = body.querySelector('nav'),
-    toggle = body.querySelector(".toggle"),
-    searchBtn = body.querySelector(".search-box"),
-    modeSwitch = body.querySelector(".toggle-switch"),
-    modeText = body.querySelector(".mode-text");
+        sidebar = body.querySelector('nav'),
+        toggle = body.querySelector(".toggle"),
+        searchBtn = body.querySelector(".search-box"),
+        modeSwitch = body.querySelector(".toggle-switch"),
+        modeText = body.querySelector(".mode-text");
 
 
-toggle.addEventListener("click" , () =>{
-  sidebar.classList.toggle("close");
-})
+      toggle.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      })
 
-searchBtn.addEventListener("click" , () =>{
-  sidebar.classList.remove("close");
-})
+      searchBtn.addEventListener("click", () => {
+        sidebar.classList.remove("close");
+      })
 
-modeSwitch.addEventListener("click" , () =>{
-  body.classList.toggle("dark");
-  
-  if(body.classList.contains("dark")){
-      modeText.innerText = "Light mode";
-  }else{
-      modeText.innerText = "Dark mode";
-      
-  }
-});
-  </script>
+      modeSwitch.addEventListener("click", () => {
+        body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          modeText.innerText = "Light mode";
+        } else {
+          modeText.innerText = "Dark mode";
+
+        }
+      });
+    </script>
     <div class="content">
       <div class="wrapper">
         <div class="content">
@@ -147,25 +145,17 @@ modeSwitch.addEventListener("click" , () =>{
             <li class="item share">
               <div>
                 <i class="uil uil-share"></i>
-                <span>Share</span>
+                <span>Download</span>
               </div>
               <i class="uil uil-angle-right"></i>
               <ul class="share-menu">
                 <li class="item">
                   <i class="uil uil-twitter-alt"></i>
-                  <span>Twitter</span>
+                  <span>Media File</span>
                 </li>
                 <li class="item">
-                  <i class="uil uil-instagram"></i>
-                  <span>Instagram</span>
-                </li>
-                <li class="item">
-                  <i class="uil uil-dribbble"></i>
-                  <span>Dribble</span>
-                </li>
-                <li class="item">
-                  <i class="uil uil-telegram-alt"></i>
-                  <span>Telegram</span>
+                  <i class="uil uil-twitter-alt"></i>
+                  <span>Drive</span>
                 </li>
               </ul>
             </li>
@@ -175,11 +165,7 @@ modeSwitch.addEventListener("click" , () =>{
             </li>
             <li class="item">
               <i class="uil uil-edit"></i>
-              <span>Rename</span>
-            </li>
-            <li class="item">
-              <i class="uil uil-trash-alt"></i>
-              <span>Delete</span>
+              <span>Have Bug ?</span>
             </li>
           </ul>
           <div class="setting">
@@ -190,364 +176,167 @@ modeSwitch.addEventListener("click" , () =>{
           </div>
         </div>
       </div>
-      <div class="chips-wrapper">
-        <div class="chip">
-          <p>All</p>
-        </div>
-                <div class="chip">
-                    <p>CSS</p>
+      <div class="video-container">
+        <div class="video-content-cover">
+          <div class="video-content">
+            <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+              <img src="./Thumb/Untitled (1).png" alt="">
+            </a>
+            <div class="video-details">
+              <div class="channel-logo">
+                <img src="unnamed (7).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3 class="title">Complete responsive website design</h3>
+                <div class="channel-name">iMe Creative</div>
+                <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
                 </div>
-                <div class="chip">
-                  <p>User interface design</p>
-                </div>
-                <div class="chip">
-                  <p>User interface design</p>
-                </div>
-                <div class="chip">
-                  <p>User interface design</p>
-                </div>
-                <div class="chip">
-                  <p>User interface design</p>
-                </div>
-                <div class="chip">
-                  <p>User interface design</p>
-                </div>
-                <div class="chip">
-                    <p>User interface design</p>
-                </div>
-                <div class="chip">
-                    <p>User interface design</p>
-                  </div>
-                </div>
-                <div class="video-container">
-                  <div class="video-content-cover">
-                    <div class="video-content">
-                      <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                        <img src="1.png" alt="">
-                      </a>
-                      <div class="video-details">
-                        <div class="channel-logo">
-                          <img src="unnamed (7).jpg" alt="">
-                        </div>
-                        <div class="detail">
-                          <h3 class="title">Complete responsive website design</h3>
-                          <div class="channel-name">iMe Creative</div>
-                          <div class="views-upload">
-                            <div class="views">281K views .</div>
-                            <div class="upload">1 year ago</div>
-                          </div>
-                        </div>
-                      </div>
-                        <div class="hidden-content">
-                          <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                          <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                  <div class="video-content">
-                    <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                      <img src="2.png" alt="">
-                        </a>
-                        <div class="video-details">
-                          <div class="channel-logo">
-                            <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">React with firebase 9 (blog app with file upload)</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-                                
-                              </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                          </div>
-                        </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="3.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
 
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="4.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="5.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="6.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="cwv.png" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">React Table Sorting</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="7.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">React Table Sorting</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="8.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="1.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="1.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="1.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="video-content-cover">
-                    <div class="video-content">
-                        <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
-                            <img src="1.png" alt="">
-                        </a>
-                        <div class="video-details">
-                            <div class="channel-logo">
-                                <img src="unnamed (7).jpg" alt="">
-                            </div>
-                            <div class="detail">
-                                <h3 class="title">Complete responsive website design</h3>
-                                <div class="channel-name">iMe Creative</div>
-                                <div class="views-upload">
-                                    <div class="views">281K views .</div>
-                                    <div class="upload">1 year ago</div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="hidden-content">
-                            <div class="btn"><i class="ri-time-line"></i>Watch later</div>
-                            <div class="btn"><i class="ri-play-list-2-line"></i>Add to queue</div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+          </div>
         </div>
-    </div>
+        <div class="video-content-cover">
+          <div class="video-content">
+            <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+              <img src="7.png" alt="">
+            </a>
+            <div class="video-details">
+              <div class="channel-logo">
+                <img src="unnamed (7).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3 class="title">React Table Sorting</h3>
+                <div class="channel-name">iMe Creative</div>
+                <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-content-cover">
+          <div class="video-content">
+            <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+              <img src="8.png" alt="">
+            </a>
+            <div class="video-details">
+              <div class="channel-logo">
+                <img src="unnamed (7).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3 class="title">Complete responsive website design</h3>
+                <div class="channel-name">iMe Creative</div>
+                <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="video-content-cover">
+          <div class="video-content">
+            <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+              <img src="1.png" alt="">
+            </a>
+            <div class="video-details">
+              <div class="channel-logo">
+                <img src="unnamed (7).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3 class="title">Complete responsive website design</h3>
+                <div class="channel-name">iMe Creative</div>
+                <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="video-content-cover">
+          <div class="video-content">
+            <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+              <img src="1.png" alt="">
+            </a>
+            <div class="video-details">
+              <div class="channel-logo">
+                <img src="unnamed (7).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3 class="title">Complete responsive website design</h3>
+                <div class="channel-name">iMe Creative</div>
+                <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="video-content-cover">
+          <div class="video-content">
+            <a href="https://www.youtube.com/watch?v=FNhjbNQ8Sik" class="video-box">
+              <img src="1.png" alt="">
+            </a>
+            <div class="video-details">
+              <div class="channel-logo">
+                <img src="unnamed (7).jpg" alt="">
+              </div>
+              <div class="detail">
+                <h3 class="title">Complete responsive website design</h3>
+                <div class="channel-name">iMe Creative</div>
+                <div class="views-upload">
+                  <div class="views">281K views .</div>
+                  <div class="upload">1 year ago</div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div
+  </div>
 </body>
 <script>const contextMenu = document.querySelector(".wrapper"),
-  shareMenu = contextMenu.querySelector(".share-menu");
-  
+    shareMenu = contextMenu.querySelector(".share-menu");
+
   window.addEventListener("contextmenu", e => {
-      e.preventDefault();
-      let x = e.offsetX, y = e.offsetY,
+    e.preventDefault();
+    let x = e.offsetX, y = e.offsetY,
       winWidth = window.innerWidth,
       winHeight = window.innerHeight,
       cmWidth = contextMenu.offsetWidth,
       cmHeight = contextMenu.offsetHeight;
-  
-      if(x > (winWidth - cmWidth - shareMenu.offsetWidth)) {
-          shareMenu.style.left = "-200px";
-      } else {
-          shareMenu.style.left = "";
-          shareMenu.style.right = "-200px";
-      }
-  
-      x = x > winWidth - cmWidth ? winWidth - cmWidth - 5 : x;
-      y = y > winHeight - cmHeight ? winHeight - cmHeight - 5 : y;
-      
-      contextMenu.style.left = `${x}px`;
-      contextMenu.style.top = `${y}px`;
-      contextMenu.style.visibility = "visible";
+
+    if (x > (winWidth - cmWidth - shareMenu.offsetWidth)) {
+      shareMenu.style.left = "-200px";
+    } else {
+      shareMenu.style.left = "";
+      shareMenu.style.right = "-200px";
+    }
+
+    x = x > winWidth - cmWidth ? winWidth - cmWidth - 5 : x;
+    y = y > winHeight - cmHeight ? winHeight - cmHeight - 5 : y;
+
+    contextMenu.style.left = `${x}px`;
+    contextMenu.style.top = `${y}px`;
+    contextMenu.style.visibility = "visible";
   });
-  
+
   document.addEventListener("click", () => contextMenu.style.visibility = "hidden");</script>
+
 </html>
