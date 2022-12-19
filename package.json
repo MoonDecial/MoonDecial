@@ -18,6 +18,7 @@
   "homepage": "https://github.com/MoonDecial/MoonDecial#readme",
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "boxicons": "^2.1.4",
     "md-block": "^0.0.1"
   }
 }
