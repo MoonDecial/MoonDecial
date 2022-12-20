@@ -149,6 +149,7 @@ img {
 .channel-logo {
     position: relative;
     min-width: 35px;
+    padding-left: 6px;
     height: 35px;
     border-radius: 50%;
     overflow: hidden;
