@@ -222,4 +222,4 @@ button{
 # Assets 
 * **Icon**: 
   https://firebasestorage.googleapis.com/v0/b/moondecial.appspot.com/o/moondicial.ico?alt=media&token=4b7ba913-7a84-4d0e-901d-e9b53dade202
-  
+# Gadient Color : 
