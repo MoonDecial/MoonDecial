@@ -4,7 +4,7 @@
   "description": "* Exe Application : \r - Download App Window : https://moondecial.github.io/MoonDeical-DownLoad-Page/#home\r * Web Application : \r - Home : https://moondecial.github.io/MoonDecial/Home/home.html\r - CodeLab Home : https://moondecial.github.io/MoonDecial/codelab.html\r - KhoaDev:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"LOL , Runtime bi loi\" && exit 1"
   },
   "repository": {
     "type": "git",
